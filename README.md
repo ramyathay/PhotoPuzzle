@@ -5,3 +5,6 @@ Want to Play ?
 
 Clone the project: git clone https://github.com/ramyathay/PhotoPuzzle.git
 In Xcode change the Team name to your IOS Developer Team name and Run the project.
+
+To see the game virtually, follow the link below:- 
+https://cloud.githubusercontent.com/assets/12706707/13445689/8310da08-dfc2-11e5-8bef-ffee068af887.gif
