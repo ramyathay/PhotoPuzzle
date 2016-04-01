@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D215315A1C9201E80002ADEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21531581C9201E80002ADEF /* Main.storyboard */; };
 		D2606FA41C5870D300B7473F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606FA31C5870D300B7473F /* AppDelegate.swift */; };
 		D2606FA61C5870D300B7473F /* PhotoPuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606FA51C5870D300B7473F /* PhotoPuzzleViewController.swift */; };
-		D2606FA91C5870D300B7473F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2606FA71C5870D300B7473F /* Main.storyboard */; };
 		D2606FAB1C5870D300B7473F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2606FAA1C5870D300B7473F /* Assets.xcassets */; };
 		D2606FAE1C5870D300B7473F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2606FAC1C5870D300B7473F /* LaunchScreen.storyboard */; };
+		D2BCE84D1C9116D100115FA5 /* ExtraCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCE84C1C9116D100115FA5 /* ExtraCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D21531591C9201E80002ADEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../Downloads/PhotoPuzzle-master/PhotoPuzzle/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		D2606FA01C5870D300B7473F /* PhotoPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2606FA31C5870D300B7473F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2606FA51C5870D300B7473F /* PhotoPuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPuzzleViewController.swift; sourceTree = "<group>"; };
-		D2606FA81C5870D300B7473F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2606FAA1C5870D300B7473F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2606FAD1C5870D300B7473F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2606FAF1C5870D300B7473F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BCE84C1C9116D100115FA5 /* ExtraCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		D2606FA21C5870D300B7473F /* PhotoPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				D21531581C9201E80002ADEF /* Main.storyboard */,
 				D2606FA31C5870D300B7473F /* AppDelegate.swift */,
 				D2606FA51C5870D300B7473F /* PhotoPuzzleViewController.swift */,
-				D2606FA71C5870D300B7473F /* Main.storyboard */,
+				D2BCE84C1C9116D100115FA5 /* ExtraCode.swift */,
 				D2606FAA1C5870D300B7473F /* Assets.xcassets */,
 				D2606FAC1C5870D300B7473F /* LaunchScreen.storyboard */,
 				D2606FAF1C5870D300B7473F /* Info.plist */,
@@ -123,9 +126,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D215315A1C9201E80002ADEF /* Main.storyboard in Resources */,
 				D2606FAE1C5870D300B7473F /* LaunchScreen.storyboard in Resources */,
 				D2606FAB1C5870D300B7473F /* Assets.xcassets in Resources */,
-				D2606FA91C5870D300B7473F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,16 +141,17 @@
 			files = (
 				D2606FA61C5870D300B7473F /* PhotoPuzzleViewController.swift in Sources */,
 				D2606FA41C5870D300B7473F /* AppDelegate.swift in Sources */,
+				D2BCE84D1C9116D100115FA5 /* ExtraCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2606FA71C5870D300B7473F /* Main.storyboard */ = {
+		D21531581C9201E80002ADEF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2606FA81C5870D300B7473F /* Base */,
+				D21531591C9201E80002ADEF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
